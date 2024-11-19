@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">InfoPages</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_name">Nikita Karpov</string>
+    <string name="my_group">JPTV22</string>
+    <string name="page2H">My favorite band: System of a Down </string>
+    <string name="page3H">History</string>
+    <string name="page3p">System of a Down, formed in 1994 in California, blends metal, rock, and Armenian influences. The band gained fame with their self-titled debut in 1998 and the critically acclaimed album "Toxicity" in 2001. Known for their politically charged lyrics, they address issues like war, genocide, and social justice. The group went on hiatus in 2006 but reunited in 2010, continuing to tour and release new music. Their unique sound and activism have solidified their place in alternative metal history.</string>
+
+    <string name="page4H">Band members</string>
+    <string name="page4p1">Serj Tankian</string>
+    <string name="page4p2">Daron Malakian</string>
+    <string name="page4p3">Shavo Odadjian</string>
+    <string name="page4p4">John Dolmayan</string>
+
+    <string name="page5H">Albums</string>
+    <string name="albums">1. System of a Down (1998)\n2. Toxicity (2001)\n3. Steal This Album! (2002)\n4. Mezmerize (2005)\n5. Hypnotize (2005)</string>
+
+
+    <string name="page5p">They also have several live albums and compilations, but these are their main studio releases.</string>
+
+    <string name="desc">Image</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="slider_label">Swipe through the images</string>
+
+
+
+</resources>

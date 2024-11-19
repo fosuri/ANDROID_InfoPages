@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Page4Fragment">
+
+    <TextView
+        android:id="@+id/page4h"
+        android:layout_width="match_parent"
+        android:paddingLeft="24sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/page4H"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/page4img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="24sp"
+        android:src="@drawable/page4_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/page4h" />
+
+    <TextView
+        android:id="@+id/page4p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="116dp"
+        android:paddingLeft="24sp"
+        android:paddingTop="0sp"
+        android:paddingRight="24sp"
+        android:paddingBottom="0sp"
+        android:text="@string/page4p1"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/page4img1"
+        app:layout_constraintTop_toBottomOf="@id/page4h" />
+
+    <ImageView
+        android:id="@+id/page4img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="24sp"
+        android:src="@drawable/page4_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/page4img1" />
+
+    <TextView
+        android:id="@+id/page4p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="88dp"
+        android:paddingLeft="24sp"
+        android:paddingTop="0sp"
+        android:paddingRight="24sp"
+        android:paddingBottom="0sp"
+        android:text="@string/page4p2"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/page4img2"
+        app:layout_constraintTop_toBottomOf="@+id/page4p1" />
+
+
+    <ImageView
+        android:id="@+id/page4img3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="24sp"
+        android:src="@drawable/page4_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/page4img2" />
+
+    <TextView
+        android:id="@+id/page4p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="88dp"
+        android:paddingLeft="24sp"
+        android:paddingTop="0sp"
+        android:paddingRight="24sp"
+        android:paddingBottom="0sp"
+        android:text="@string/page4p3"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/page4img3"
+        app:layout_constraintTop_toBottomOf="@+id/page4p2" />
+
+    <ImageView
+        android:id="@+id/page4img4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="24sp"
+        android:src="@drawable/page4_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/page4img3" />
+
+    <TextView
+        android:id="@+id/page4p4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="88dp"
+        android:paddingLeft="24sp"
+        android:paddingTop="0sp"
+        android:paddingRight="24sp"
+        android:paddingBottom="0sp"
+        android:text="@string/page4p4"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/page4img4"
+        app:layout_constraintTop_toBottomOf="@+id/page4p3" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
